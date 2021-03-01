@@ -1,0 +1,39 @@
+body {
+background: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bulb {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-left {
+    margin-left: 340px;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#btn-right {
+margin-left: 320px;
+padding: 10px;
+border: solid 1px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+#btn-left:hover {
+    background-color: rgb(192, 188, 188);
+}
+
+#btn-right:hover {
+    background-color: rgb(192, 188, 188);
+}
